@@ -13,7 +13,7 @@ public class WebConfig {
             @Override
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
-                        .allowedOrigins("https://youshelt1.netlify.app")
+                        .allowedOrigins("http://192.168.1.43:5173")
                         .allowedMethods("*");
             }
         };
